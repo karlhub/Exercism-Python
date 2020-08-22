@@ -1,3 +1,5 @@
+# Ideally, the 3 methods should include initial validations of the parameters to avoid exception errors
+
 class Matrix:
 #In Python 3.7.4 "new line" char inside a string is represented with just one '\', but in Python 3.8 it is needed 2 '\\'
     def __init__(self, matrix_string):
